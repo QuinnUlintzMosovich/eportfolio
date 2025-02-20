@@ -1,0 +1,156 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Quinn Ulintz Mosovich">
+    <title>Black Box </title>
+    <link rel="stylesheet" href="{% static 'core/style.css' %}">
+</head>
+  <body>
+            <nav>
+    	<ul>
+	<li><a href="/blackbox">Our Shared Canvas</a></li>
+	<li><a href="/screenprint">Black Box Investigation</a></li>
+	<li><a href="/aboutme">About Me</a></li>
+	</ul>
+    </nav>    <h1>Black Box Investigation</h1>
+<p >In class, we looked at  a  black box that we poured a certin amount of  water into. The  black box. The box is a mystery that has a unpredictable
+ water input and output. The amount  between each pour  changes between tests, and and it always seems to change depending on the amount of water . The goal of the investigation was to make a model that replicate's  the black box with a cardboard box insted or the plastic normol box  to test a  idea for the functionality of the black box.</p>
+<h2>Claim: </h2>
+<h4>I feel that there is really not a lot of evidence when it comes to the black box seeing as we cant see inside .</h4>
+<h3>Evidence:</h3>
+<p >The method that we gathered evidence when working with the mystery black box was to pour a sertin  amount of water into the black box, then document the output of water from the box when less water came when more water came out etc.
+<p>The black box water output varies greatly, with an apparent pattern of less than 1 output to input ratio, or a zero for the same ratio. This is followed by extremely high (towards 2) output to input ratios. This also seems to vary depending on the amount of water imputed, and even varies without a change in water input. For example, in trial 2 for the black box, there is an input of 900 mL, but no output. However, for the subsequent 2 tests, the water output is greater than the input.</p>
+<p>The model that we built (made of a funnel leading to a container, with a siphon leading to another container with another siphon leading out of the box) has comparatively consistent results with the same testing regime, with some tests (like test 8) having identical inputs and outputs. For example, in tests 1 and 2, the water output remanined the same (despite different imputs).</p>
+<table class="center">
+  <tr id="header-row">
+	<th></th>
+	<th colspan="2">Model Black Box</th>
+	<th colspan="2">Original Black Box</th>
+
+  </tr>
+  <tr>
+    <th>Test Number</th>
+    <th>Water Input (mL) (Model Box)</th>
+    <th>Water Output (mL) (Model Box)</th>
+    <th>Water Input (mL) (Black Box)</th>
+    <th>Water Output (mL) (Black Box)</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>1600</td>
+    <td>1350</td>
+    <td>700</td>
+    <td>850</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>1350</td>
+    <td>1350</td>
+    <td>900</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>1000</td>
+    <td>950</td>
+    <td>600</td>
+    <td>1250</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>585</td>
+    <td>0</td>
+    <td>1000</td>
+    <td>1070</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>450</td>
+    <td>975</td>
+    <td>750</td>
+    <td>210</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>950</td>
+    <td>900</td>
+    <td>200</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>900</td>
+    <td>900</td>
+    <td>1000</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>800</td>
+    <td>800</td>
+    <td>N/A</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>800</td>
+    <td>0</td>
+    <td>N/A</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>300</td>
+    <td>480</td>
+    <td>N/A</td>
+    <td>N/A</td>
+  </tr>
+</table>
+<p>Quinn Pouring Water Into the Black Box</p>
+
+<img class="side-by-side" src="{% static 'core/IMG_3757.JPG' %}" width=350>
+<img class="side-by-side" src="{% static 'core/IMG_3872.JPG' %}" width=350>
+<p>Veiw of the Model Black Box Being Operated</p>
+<h3>Reasoning</h3>
+<p >The definition of a model is something that is a simplified representation of something else.</p>
+
+<p >The evidence that we gathered shows a black box with high variability in output. However, the data we have has highly variable input values that might contribute to the apparent variability. This might contribute to differences between the model box and the black box. However, some variability might be unable to be explained by this, such as the input being the same as the output for some tests. However, the testing for the model was also different from the testing for the black box, which might have affected the data. Overall, too many factors could have caused the difference in data between the model box and black box.</p>
+
+<p >To prove that the model that we created is correct, I would need to know that the mystery black box could output the same as the input. This would get rid of one of the most major apparent differences between the model and black boxes.</p>
+<h3>3D Modeling, Animation, and Augmented Reality</h3>
+<p>Over the course of quarter 1, my class worked on 3D modeling and animation in a program called Autodesk Maya. This work was to create an animated model of the black box that we inspected earlier in class. This model was intended to clearly show how the model functioned. For my model, I attempted to model a box with two reservoirs and two siphons. This is what that model looks like:</p>
+<img src="{% static 'core/Black_Box_Full_Veiw_Quinn.jpg' %}" width=350>
+<p>Full View of the Black Box</p>
+<p>This model was then animated using keyframes, with the program creating the full animation automatically. After the model was animated, the fully animated file was put into an augmented reality program to allow for it to be more engaging for people.</p>
+<video width="252" autoplay muted loop>
+ <source src="{% static 'core/Recording 2024-10-30 082332.mp4' %}" type="video/mp4">
+</video>
+<img src="{% static 'core/IMG_4449.JPG' %}" width=350>
+<p>Veiw of the Model Black Box AR Image</p>
+<img src="{% static 'core/Screenshot 2024-10-30 090316.png' %}" width=150>
+<p>
+
+</p>
+<a class="colorshift" href="https://objects.mergeedu.com/link/92V890">Look at my black box in AR!</a>
+<h3>Personal Reflection</h3>
+<p>Over the course of my group work, I was able to contribute greatly to my group’s ability to model the black box that we were investigating. In fact, I created the concept that my team used to model the behavior of the black box. I was also able to make significant contributions to assembly of the box, and assisted in taking images of the assembly and investigation process. However, there were some areas that I struggled with. One of them was letting other people make important decisions. This is because I often wish to have my vision be the vision that my group follows, even if it is not the best thing to do. I have learned that my vision is not always the best. However, even if my vision was not always followed, I still enjoyed being able to work with others to make a vision a reality. Still, I could have improved my work by focusing more, letting others take the initiative more, and argue less.</p>
+
+
+<div class="flex-container">
+  <div><img src="{% static 'core/WIN_20241030_08_52_51_Pro.jpg' %}" width=350></div>
+  <div><img src="{% static 'core/Black_Box_Full_Veiw_Quinn.jpg' %}" width=450></div>
+</div>
+<p>Full View of the Black Box</p>
+<img src="{% static 'core/Black_Box_End_State.jpg' %}"width=750>
+<p>End State of the Black Box</p>
+<img src="{% static 'core/Black_Box_Pour_Veiw.jpg' %}"" width=750>
+<p>Veiw of Water Being Poured Into the Black Box</p>
+  </body>
+</html>
+
+

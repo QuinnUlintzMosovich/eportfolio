@@ -1,0 +1,85 @@
+{% load static %}
+
+<!DOCTYPE html>
+<!--
+    Anything you put in between the double-dash arrow symbols shown around
+    this block of text is designated a 'comment' intended for human coders
+    and ignored by the computer. The top "<!DOCTYPE html>" line of code
+    declares that this text file is to be interpreted as HTML code.
+-->
+
+<html lang=en>
+<!--
+    This opening tag marks the start of the html code.  Everything below
+    until the </html> closing tag is part of this element. "lang" is an
+    attribute defining the language of the website. The value "en"
+    indicates this site is written in English. We indent the content
+    inside an element to make it easier for people to read and understand.
+-->
+
+    <head>
+    <!--Code about the website NOT displayed in the browser window.-->
+
+        <meta charset="UTF-8"> <!--Sets site to use standard characters.-->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Sizes your site to the visitor's screen size -->
+
+        <meta name="author" content="Your Name">
+        <!--
+            Some tags like "meta" are self-closing. They have "attributes"
+            but no inner content and they don't need or use a closing tag.
+        -->
+
+        <title>Quinn Ulintz Mosovich's Screenprinting Project</title>
+        <!--The 'title' is what's displayed in the browser tab.-->
+
+        <link rel="stylesheet" href="{% static 'core/style1.css' %}">
+        <!--
+            HTML (HyperText Markup Language) code is for the website
+            content. CSS (Cascading Style Sheets) code is for the website
+            style. The line above tells the browser the file location and
+            file name to find this code that you'll write/edit there.
+        -->
+
+    </head>
+
+    <body> <!--Everything to be displayed in the browser window.-->
+            <nav>
+    	<ul>
+	<li><a href="blackbox">Our Shared Canvas</a></li>
+	<li><a href="screenprint">Black Box Investigation</a></li>
+	<li><a href="/aboutme">About Me</a></li>
+	</ul>
+    </nav>
+
+        <h1>New Media and Tech: Our Shared Canvas</h1>
+        <h2>By Quinn Ulintz Mosovich</h2>
+        <h3>Our Shared Canvas</h3>
+	<p>In New Media and Tech, we use technology to convey our opinions to others. One way we do this is screen printing, which uses a screen and a template to stain a 	piece of cloth or paper with an image. We were required to use a frame and a screen to print the template onto cloth, paper, and cardboard.</p>
+	<h3>Concept Creation</h3>
+	<p>During the concept creation step, my class researched prior screenprints, including historical examples and prior student work to develop my ideas from 	nonexistent to fully fleshed out concepts. This allowed us to choose a theme for my screenprint, giving us a solid foundation to start developing the screenprint 	into an actual concept. I specifically was inspired by the global development of space exploration technologies by people across the world, and the challenge 	faced by engineers in attempting to perform such a difficult task. My screenprint’s motto, “Ad astra per aspera,” or “to the stars through hardship,” shows the 	benefits of such hard tasks. This does not only apply to aerospace engineering, but any hard yet rewarding task. It reminds people that the path (represented by 	steps) to the stars (success) is paid through hardship and hard work.</p>
+	<h3>Photography</h3>
+	<p>To expedite the creation of a screenprint, my class had to use an image as the base for the concept. My group took an image of my feet on a simulated staircase 	for my design (composed of cardboard on top of plastic containers stacked on top of each other). We used a Canon EOS Rebel T7 to take the photos. In addition, we 	adjusted the exposure of the camera while taking the photo. This image was then brought to the photo editing software Adobe Photoshop.</p>
+<img src="{% static 'core/IMG_4814.JPG' %}" width="500">
+        <h3>Photoshop Development</h3>
+	<p>To screenprint my concepts, we had to first design them in their entirety. This would require using a photo editing software, in this case, photoshop. To 	create my design, I used a monochrome filter to ensure that the photo was in only black and white. After that, I used an AI fill to add additional roughness to 	the edges of the main focus. Next, I used the draw tool to add three white stylized stars to the image. Finally, I added a curved text box with the white text “Ad 	Astra per Aspera” to the image, with two words below each foot.</p>
+	<h3>Making the Screenprint</h3>
+	<p>To prepare the screenprint, we first had to make the template to print off of. The first step of this process was to create the frame that we would add the 	template sheet to. I needed to cut 4 pieces of identical 14.5 in long corner pieces. After I cut those, I needed to join them together. This was done by gluing 	them together, then adding staples to each side of the join to ensure proper alignment and pressure during the glue’s solidification. Next, I needed to add the 	sheet that the template cut would be placed on. This required cutting a 15.5 in square cloth piece, then stapling the cloth to the screen by drawing it tight with 	the assistance of another member of my group, then ensuring that the close fit was maintained via copious staples. The final step was to add the template sheet. 	Firstly, the sheet was cut into the correct shape via computer-controlled cutting machines. These were Cameo machines controlled by Silhouette Studio. The 	software was supplied with a PDF of my design to function.</p>
+<img src="{% static 'core/Copy_of_IMG_5783.JPG' %}" width="400">
+
+<p>The next step was to remove additional, cut parts of the design.
+This was done via tweezers, allowing 	us to progress to the next step, adding the template sheet to the frame. This was done via heated irons, allowing for the print to be melted to the cloth covering the frame. After this, a protective layer preventing screen binding to the iron was removed, and the template was finished.</p>
+	<h3>The Final Results</h3>
+	<p>The final step of screen printing was to print the final design onto a variety of mediums. Firstly, we had to mix paint. My mix was either entirely white or 	entirely black, making this quite easy. Next, I applied the paint in a thin layer to the template before pressing it onto the target medium. I used paper, cloth, and cardboard to print my design onto. Here are a few examples.</p>
+<img src="{% static 'core/IMG_4814.JPG' %}" width="200">
+<img src="{% static 'core/IMG_5764.JPG' %}" alt="Girl in a jacket" width="200">
+<img src="{% static 'core/IMG_5765.JPG' %}" alt="Girl in a jacket" width="200">
+<h3>How Everything Turned Out</h3>
+<p>Overall, I quite enjoyed this project. I was able to quickly and efficiently use the provided resources, work with others to expedite the creation of my design and its movement to reality. However, I did have some challenges during this process. I had some troubles during the photoshop process realizing my final idea. I was able, however, to overcome this problem with perseverance and hard work. These attributes are essential to doing good work in spite of adversity.
+</p>
+<h3>21st Century Skill: Problem Solving and Critical Thinking</h3>
+<p>Over the course of this project, I needed to solve a wide variety of problems. These ranged from what design to use to how to use a smaller than expected template sheet. However, over the course of all these issues, a problem needed to be solved. At the beginning of this project, I had some difficulties in being able to solve the problem of my photoshop image being highly intertangled between different layers. It took a lot of help and a lot of time for me to be able to solve this problem. However, by the end of this project, I was able to quickly and efficiently use a smaller than expected template sheet to print my final screenprints. This transition shows how I have developed in problem solving and critical thinking over the course of this project.
+</p>
+    </body>
+</html>
