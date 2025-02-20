@@ -1,4 +1,3 @@
-{% load static %}
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
 
 @keyframes colorshift {
@@ -94,6 +93,7 @@ table, th, td{
 body{
 	margin: auto;
 }
+
 .flex-container {
   display: flex;
   background-color: rgb(0, 0, 204);
@@ -106,14 +106,16 @@ body{
   padding: 20px;
   font-size: 30px;
 /* Style the navigation menu */
-.navbar {
+}
+
+nav {
   width: 100%;
   background-color: #555;
   overflow: auto;
 }
 
 /* Navigation links */
-.navbar a {
+nav a {
   float: left;
   padding: 12px;
   color: white;
@@ -124,25 +126,25 @@ body{
 }
 
 /* Add a background color on mouse-over */
-.navbar a:hover {
+nav a:hover {
   background-color: #000;
 }
 
 /* Style the current/active link */
-.navbar a.active {
+nav a.active {
   background-color: #04AA6D;
 }
 
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
 @media screen and (max-width: 500px) {
-  .navbar a {
+  nav a {
     float: none;
     display: block;
     width: 100%;
     text-align: left; /* If you want the text to be left-aligned on small screens */
   }
 }
-}
+
 
 .flex-container img {
 	width: 300px;
